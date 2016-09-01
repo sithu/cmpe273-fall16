@@ -8,6 +8,7 @@
 
 1. [Install Docker]
 2. Create a Github repo called "cmpe273-lab1" and clone the repo to your local machine.
+
 ```sh
 git clone https://github.com/{your_username}/cmpe273-lab1
 cd cmpe273-lab1
