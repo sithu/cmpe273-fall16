@@ -77,7 +77,7 @@ tester    -        virtualbox   Saved                                         Un
 ```
 > Example: Under the "URL" column, "192.168.99.100" is the IP of your container.
 
-* [10] Open this URL in a web browser and you will see the Hello message. 
+* [10] Open this URL in a web browser. If you see the Hello message, you can now commit all three files into your Github repo (cmpe273-lab1).
 
 ```sh
 http://{IP_FROM_STEP_9}:5000/
