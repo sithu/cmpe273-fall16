@@ -69,6 +69,8 @@ docker run -d -p 5000:5000 lab1-flask-app
 * [9] Lookup IP of the Lab1-flask-app container.
 ```sh
 docker-machine ls
+# OR 
+docker-machine ip default
 ```
 ```sh
 NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER    ERRORS
