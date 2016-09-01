@@ -12,6 +12,7 @@
 git clone https://github.com/{your_username}/cmpe273-lab1
 cd cmpe273-lab1
 ```
+
 3. Create *requirements.txt* file and add this line to the file.
 ```sh
 flask
