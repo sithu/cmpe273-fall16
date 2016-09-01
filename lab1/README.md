@@ -85,4 +85,4 @@ http://{IP_FROM_STEP_9}:5000/
 
 [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 
-[Docker]: https://docs.docker.com/engine/installation/#/on-osx-and-windows{:target="_blank"}
+[Docker]: https://docs.docker.com/engine/installation/#/on-osx-and-windows
