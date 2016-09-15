@@ -69,3 +69,11 @@ _Response Header_
 ```sh
 202 Accepted
 ```
+
+* DELETE /v1/expenses/{expense_id}
+
+ _Response Header_
+
+```sh
+204 No Content
+```
