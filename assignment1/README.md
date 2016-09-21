@@ -77,3 +77,13 @@ _Response Header_
 ```sh
 204 No Content
 ```
+
+#### Data Persistence
+
+You need to store data generated from the APIs into MySQL RDBMS using [Flask-SQLAlchemy](http://flask-sqlalchemy.pocoo.org/2.1/).
+
+
+#### Ship it in a Docker Container
+
+Finally, use [Docker-compose](https://docs.docker.com/compose/) to wrap your application into a Docker container. See [this example](https://github.com/aabdulwahed/Docker-Compose/tree/master/Flask-MySQL).
+
