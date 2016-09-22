@@ -32,7 +32,23 @@ _Response Header_
 
 ```sh
 201 OK
-Location: /v1/expenses/123456
+```
+
+_Response Body_
+
+```json
+{
+    "id" : "123456",
+    "name" : "Foo Bar",
+    "email" : "foo@bar.com",
+    "category" : "office supplies|travel|training",
+    "description" : "iPad for office use",
+    "link" : "http://www.apple.com/shop/buy-ipad/ipad-pro",
+    "estimated_costs" : "700",
+    "submit_date" : "09-08-2016",
+    "status" : "pending|approved|rejected|overbudget",
+    "decision_date" : "09-10-2016"
+}
 ```
 
 * GET /v1/expenses/{expense_id}
