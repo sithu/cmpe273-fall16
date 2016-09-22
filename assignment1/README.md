@@ -2,6 +2,12 @@
 
 You will be building a simple expense mamagement system using Python Flask.
 
+#### Prerequisites
+* Docker installed on your machine.
+* Create an account at [Docker hub](https://hub.docker.com/)
+* Add your account to the [SJSU cmpe273 team](https://hub.docker.com/u/sjsu/dashboard/teams/?team=cmpe273). 
+* See me in the class to add your account to the team.
+
 #### APIs
 
 > Base URL: http://localhost:5000
@@ -85,5 +91,17 @@ You need to store data generated from the APIs into MySQL RDBMS using [Flask-SQL
 
 #### Ship it in a Docker Container
 
-Finally, use [Docker-compose](https://docs.docker.com/compose/) to wrap your application into a Docker container. See [this example](https://github.com/aabdulwahed/Docker-Compose/tree/master/Flask-MySQL).
+* Use [Docker-compose](https://docs.docker.com/compose/) to wrap your application into a Docker container. See [this example](https://github.com/aabdulwahed/Docker-Compose/tree/master/Flask-MySQL).
+* Tag your image via:
+
+```sh
+docker login
+docker tag sha256:xxxxxx sjsu/your-entire-sjsu-id-assignment1
+```
+
+* Finally, you publish your image to SJSU Docker hub repository.
+
+```sh
+docker push sjsu/your-entire-sjsu-id-assignment1
+```
 
