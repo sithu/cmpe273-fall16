@@ -46,7 +46,7 @@ _Response Body_
     "link" : "http://www.apple.com/shop/buy-ipad/ipad-pro",
     "estimated_costs" : "700",
     "submit_date" : "09-08-2016",
-    "status" : "pending|approved|rejected|overbudget",
+    "status" : "pending",
     "decision_date" : "09-10-2016"
 }
 ```
@@ -71,7 +71,7 @@ _Response Body_
     "link" : "http://www.apple.com/shop/buy-ipad/ipad-pro",
     "estimated_costs" : "700",
     "submit_date" : "09-08-2016",
-    "status" : "pending|approved|rejected|overbudget",
+    "status" : "pending",
     "decision_date" : "09-10-2016"
 }
 ```
@@ -104,6 +104,22 @@ _Response Header_
 
 You need to store data generated from the APIs into MySQL RDBMS using [Flask-SQLAlchemy](http://flask-sqlalchemy.pocoo.org/2.1/).
 
+
+#### [Docker Container Persistence](https://github.com/geerlingguy/docker-examples/tree/master/flask#persisting-data)
+
+Docker provides Data containers for stateful applicaitons like Database. You will be mounting a dedicated volume for MySQL so that you can easily
+manage the persistence data file generated from MySQL.
+
+```yml
+services:
+  ...
+  db:
+    ...
+    volumes:
+      - ./database:/var/lib/mysql
+```
+
+See@[Another Flask MySQL Docker Example](https://github.com/geerlingguy/docker-examples/tree/master/flask)
 
 #### Ship it in a Docker Container
 
