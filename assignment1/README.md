@@ -105,9 +105,9 @@ _Response Header_
 You need to store data generated from the APIs into MySQL RDBMS using [Flask-SQLAlchemy](http://flask-sqlalchemy.pocoo.org/2.1/).
 
 
-#### [Docker Container Persistence](https://github.com/geerlingguy/docker-examples/tree/master/flask#persisting-data)
+#### Docker Container Persistence
 
-Docker provides Data containers for stateful applicaitons like Database. You will be mounting a dedicated volume for MySQL so that you can easily
+Docker provides [Data containers](https://github.com/geerlingguy/docker-examples/tree/master/flask#persisting-data) for stateful applications like Database. You will be mounting a dedicated volume for MySQL so that you can easily
 manage the persistence data file generated from MySQL.
 
 ```yml
