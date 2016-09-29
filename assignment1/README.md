@@ -47,7 +47,7 @@ _Response Body_
     "estimated_costs" : "700",
     "submit_date" : "09-08-2016",
     "status" : "pending",
-    "decision_date" : "09-10-2016"
+    "decision_date" : ""
 }
 ```
 
@@ -72,7 +72,7 @@ _Response Body_
     "estimated_costs" : "700",
     "submit_date" : "09-08-2016",
     "status" : "pending",
-    "decision_date" : "09-10-2016"
+    "decision_date" : ""
 }
 ```
 
