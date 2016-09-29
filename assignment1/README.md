@@ -31,7 +31,7 @@ _Request Body_
 _Response Header_
 
 ```sh
-201 OK
+201 Created
 ```
 
 _Response Body_
