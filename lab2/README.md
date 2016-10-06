@@ -19,7 +19,7 @@ curl "http://localhost:8000/checkcrime?lat=37.334164&lon=-121.884301&radius=0.02
 ```json
 {
     "total_crime" : 24,
-    "the_most_dangerous_streets" : [ "E SAN FERNANDO ST", "E SAN FERNANDO ST" , "N 11TH ST" ],
+    "the_most_dangerous_streets" : [ "E SANTA CLARA ST", "E SAN FERNANDO ST" , "N 11TH ST" ],
     "crime_type_count" : {
         "Assault" : 10,
         "Arrest" : 8,
