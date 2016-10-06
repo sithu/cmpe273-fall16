@@ -1,6 +1,6 @@
 ### Requirements
 
-You will be building a simple RPC application to check crime report for a location. You will be using (Spyne)[http://spyne.io/#inprot=HttpRpc&outprot=JsonDocument&s=rpc&tpt=WsgiApplication&validator=true] 
+You will be building a simple RPC application to check crime report for a location. You will be using [Spyne](http://spyne.io/#inprot=HttpRpc&outprot=JsonDocument&s=rpc&tpt=WsgiApplication&validator=true) 
 toolkit to build the application. Input protocol is HttpRpc and output is JSON as described below.
 
 #### Input (HttpRpc)
