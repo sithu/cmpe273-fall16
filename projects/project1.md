@@ -10,7 +10,6 @@ You need one of the hardware for the project.
 * 2. Raspberry Pi with [BLE Adapter](  http://www.robotshop.com/en/bluetooth-40-console-adapter-raspberry-pi.html?gclid=Cj0KEQiAsP-2BRCFl4Lb2NTJttEBEiQAmj2tbR9CikBAc2FQlFk-BsD0JPNmiN_3svT176ZqvARI2eQaAi_G8P8HAQ)
 * 3. [Raspberry Pi 3 with Bluetooth (BLE) built-in](https://www.adafruit.com/products/3055) **Buy now while they are in stock!**
 
-> If you choose Raspberry Pi 3, see ["Using Bluetooth LE with Go (Golang)"](http://www.elinux.org/RPi_Bluetooth_LE#Using_Bluetooth_LE_with_Go_.28Golang.29).
 
 #### Mobile App (Android or iOS)
 You will also need to write some code in either iOS or Android to communite with BLE chip and your backend server.
