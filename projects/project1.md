@@ -6,9 +6,8 @@ Automed time and attendance tracking system shall help save time and money by el
 
 #### BLE Sensor
 You need one of the hardware for the project.
-* 1. [Arduino BLE breakout](https://www.sparkfun.com/products/13632?_ga=1.256235395.9077466.1434957323)
-* 2. Raspberry Pi with [BLE Adapter](  http://www.robotshop.com/en/bluetooth-40-console-adapter-raspberry-pi.html?gclid=Cj0KEQiAsP-2BRCFl4Lb2NTJttEBEiQAmj2tbR9CikBAc2FQlFk-BsD0JPNmiN_3svT176ZqvARI2eQaAi_G8P8HAQ)
-* 3. [Raspberry Pi 3 with Bluetooth (BLE) built-in](https://www.adafruit.com/products/3055) **Buy now while they are in stock!**
+* 1. [Raspberry Pi 3 with Bluetooth (BLE) built-in](https://www.adafruit.com/products/3055) 
+* 2. [SparkFun ESP32 Thing](https://www.sparkfun.com/products/13907)
 
 
 #### Mobile App (Android or iOS)
