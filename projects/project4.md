@@ -9,7 +9,7 @@
 * Amazon Echo Device. E.g. [New Echo Dot](https://www.amazon.com/All-New-Echo-Dot-2nd-Generation/dp/B01DFKC2SO/ref=sr_1_2?ie=UTF8&qid=1478382126&sr=8-2&keywords=amazon+echo)
 * SDK to call to the Amazon Echo services and AWS components. E.g. [ask-alexa-pykit](https://github.com/anjishnu/ask-alexa-pykit)
 * AWS Lambda
-* [Google Spread Sheet API]:
+* [Google Spread Sheet API](https://developers.google.com/google-apps/spreadsheets/worksheets#retrieve_a_list_of_spreadsheets):
     * To define the input data format: menu, price, delivery option, etc...
     * To retrieve the Pizza, pricing info, and others.
     * To save customer orders and notify when orders are ready to pick up or deliver.
