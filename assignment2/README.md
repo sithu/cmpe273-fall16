@@ -22,13 +22,6 @@ As part of the node registration, whenever you launch the expense management app
 to the router.
 
 
-
-* Dynamic Load Balancing 
-
-TBD
-
-
-
 * Failure Detection (via CircutBreaker)
 
-TBD
+Whenever a node reaches its CircuitBreaker's error count, the router should deregister the failed node from the routing table in Redis and forward the same request to the next available node.  
