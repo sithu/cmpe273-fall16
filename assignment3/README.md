@@ -8,14 +8,15 @@ In this assignment, you will be implementing client-side sharding for the expens
 
 ### Requirements
 
-* Three Docker the expense management applicaiton instances - each application instance uses one MySQL instance.
+* Modify existing POST /v1/expenses endpoint so that it can take "id" as input instead of server generated id.
+* Three Docker the expense management applicaiton instances - each application instance uses its own MySQL instance.
 * Three Docker MySQL DB instances mounted to two different local paths so that each one will have different data set.
 
 #### Consistent Hashing
 
 * Using [this example as baseline](http://techspot.zzzeek.org/2012/07/07/the-absolutely-simplest-consistent-hashing-example/), implement Consistent hashing HTTP client that will POST new expenses (to /v1/expenses) to the above three instances. 
 * You don't need to support replicas feature from the above example.
-* Use __email__ as the shard key.
+* Use __id__ as the shard key.
 * Correct consistent hashing client should shard the following ten expenses into multiple back-end instances.
 
 
@@ -25,6 +26,7 @@ _Request 1_
 
 ```json
 {
+    "id" : "1",
     "name" : "Foo 1",
     "email" : "foo1@bar.com",
     "category" : "office supplies",
@@ -39,6 +41,7 @@ _Request 2_
 
 ```json
 {
+    "id" : "2",
     "name" : "Foo 2",
     "email" : "foo2@bar.com",
     "category" : "office supplies",
@@ -55,6 +58,7 @@ _Request 10_
 
 ```json
 {
+    "id" : "10",
     "name" : "Foo 10",
     "email" : "foo10@bar.com",
     "category" : "office supplies",
