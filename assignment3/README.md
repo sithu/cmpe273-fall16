@@ -24,7 +24,7 @@ In this assignment, you will be implementing client-side sharding for the expens
 * 2. Implement a consistent hashing function that can take "id" as key, do all consistent hashing logic, and finally return one of the nodes from the above list.
 * 3. Loop through 10 ids (0-9) and get the node mapping: "1" => "127.0.0.1:3000", "2" => "127.0.0.1:4000", etc.
 * 4. Make a HTTP POST call to http://{node_returned_from_consistent_hashing_function}/v1/expenses for each id.
-* 5. Loop through the same 10 ids (0-9), get the node mapping, make a HTTP GET call to  http://{node_returned_from_consistent_hashing_function}/v1/expenses/{id} for each id. If you can retrieve all ids from the right nodes using consistent hashing, then you have a correct solution.
+* 5. Loop through the same 10 ids (0-9), get the node mapping, and then make a HTTP GET call to  http://{node_returned_from_consistent_hashing_function}/v1/expenses/{id} for each id. If you can retrieve all ids from the right nodes using consistent hashing, then you have a correct solution.
 
 
 ##### Test data
