@@ -78,6 +78,6 @@ _Request 10_
 
 ### NOTE 
 
-> If you use any thrid party consistent hashing library, or random nodes or a fixed sequential order in the id-to-node mapping; you will get zero! 
+> If you use any Python third-party consistent hashing library, or random nodes or a fixed sequential order in the id-to-node mapping; you will get zero! 
 
 
